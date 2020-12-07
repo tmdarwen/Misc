@@ -2,7 +2,6 @@ Tiva TM4C1294 SPI Example
 =========================
 
 This Texas Instruments Code Composer Studio project shows how to use [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) communication with an IO Expander.  
-
  
 
 **Hardware**
@@ -13,7 +12,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 -   Typical through-hole LEDs
 
--   480K through-hole resistors
+-   480 ohm through-hole resistors
 
 -   Typical breadboard
 
@@ -38,13 +37,11 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
  
 
-
 **Data Communication Example**
 
 Note the Microchip MCP23S17 requires the chip select (aka CS, aka SS) to remain low the entire duration of the transfer of all bytes (i.e. the entire frame).  See the MCP23S17 datasheet for more info and the comments in code for how this is handled.
 
 ![Tiva TM4C1294 SPI Example Schematic](Documentation/LogicAnalyzer.png)
-
 
 
  

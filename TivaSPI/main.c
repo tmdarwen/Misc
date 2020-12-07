@@ -29,7 +29,7 @@
  * - TI EK-TM4C1294XL Evaluation Board
  * - Microchip MCP23S17
  * - Typical through-hole LEDs
- * - 480K through-hole resistors
+ * - 480 ohm through-hole resistors
  * - Typical breadboard
  * - Some jumpers
  *
