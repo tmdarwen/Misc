@@ -8,7 +8,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 -   [Texas Instruments EK-TM4C1294XL Evaluation Board](https://www.ti.com/tool/EK-TM4C1294XL)
 
--   [Maxim MAX541](https://www.microchip.com/wwwproducts/en/MCP23S17) (16 Bit Audio DAC)
+-   [Maxim MAX541](https://www.maximintegrated.com/en/products/analog/data-converters/digital-to-analog-converters/MAX541.html) (16 Bit Audio DAC)
 
 -   A few capacitors and resistors (see schematic)
 
@@ -35,7 +35,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 The Tiva dev board has a 5v output.  A couple of resistors of the same value can be used to create a voltage divider to get the 2.5v input into the MAX541.  Basic computer speakers can be plugged into the TS audio jack to hear the audio signal the DAC outputs.
 
-![Tiva TM4C1294 SPI Example Schematic](Documentation/Max541Schematic.png)
+![Tiva TM4C1294 MAX541 Schematic](Documentation/Max541Schematic.png)
 
  
 
@@ -43,7 +43,7 @@ The Tiva dev board has a 5v output.  A couple of resistors of the same value can
 
 Here's an example of the data being transferred to the DAC when viewing with a logic analyzer:
 
-![Tiva TM4C1294 SPI Example Schematic](Documentation/Max541LogicAnalyzer.png)
+![Tiva TM4C1294 MAX541 Logic Analyzer Example](Documentation/Max541LogicAnalyzerExample.png)
 
 
  
