@@ -41,7 +41,7 @@ The Tiva dev board has a 5v output.  A couple of resistors of the same value can
 
 **Audio Sample**
 
-The short sample of audio being played back by the Tiva board is identical to that in ![this wave file](Documentation/AudioSample.wav)
+The short sample of audio being played back by the Tiva board is identical to that in [this wave file](Documentation/AudioSample.wav)
 
  
 
