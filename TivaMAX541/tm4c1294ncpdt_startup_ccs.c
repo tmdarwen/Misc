@@ -1,30 +1,28 @@
 //*****************************************************************************
 //
-// startup_ccs.c - Startup code for use with TI's Code Composer Studio.
+// Startup code for use with TI's Code Composer Studio.
 //
-// Copyright (c) 2013-2017 Texas Instruments Incorporated.  All rights reserved.
+// Copyright (c) 2011-2014 Texas Instruments Incorporated.  All rights reserved.
 // Software License Agreement
 // 
+// Software License Agreement
+//
 // Texas Instruments (TI) is supplying this software for use solely and
 // exclusively on TI's microcontroller products. The software is owned by
 // TI and/or its suppliers, and is protected under applicable copyright
 // laws. You may not combine this software with "viral" open-source
 // software in order to form a larger program.
-// 
+//
 // THIS SOFTWARE IS PROVIDED "AS IS" AND WITH ALL FAULTS.
 // NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
 // NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 // A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. TI SHALL NOT, UNDER ANY
 // CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
 // DAMAGES, FOR ANY REASON WHATSOEVER.
-// 
-// This is part of revision 2.1.4.178 of the EK-TM4C1294XL Firmware Package.
 //
 //*****************************************************************************
 
 #include <stdint.h>
-#include "inc/hw_nvic.h"
-#include "inc/hw_types.h"
 
 //*****************************************************************************
 //
@@ -50,6 +48,13 @@ extern void _c_int00(void);
 //
 //*****************************************************************************
 extern uint32_t __STACK_TOP;
+
+//*****************************************************************************
+//
+// External declarations for the interrupt handlers used by the application.
+//
+//*****************************************************************************
+// To be added by user
 
 //*****************************************************************************
 //
@@ -189,7 +194,9 @@ void (* const g_pfnVectors[])(void) =
     IntDefaultHandler,                      // HIM Consumer IR 0
     IntDefaultHandler,                      // I2C8 Master and Slave
     IntDefaultHandler,                      // I2C9 Master and Slave
-    IntDefaultHandler                       // GPIO Port T
+    IntDefaultHandler,                      // GPIO Port T
+    IntDefaultHandler,                      // Fan 1
+    0,                                      // Reserved
 };
 
 //*****************************************************************************
