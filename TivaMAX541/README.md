@@ -12,7 +12,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 -   [Maxim MAX492](https://www.maximintegrated.com/en/products/analog/amplifiers/MAX492.html) (Op Amp)
 
--   A few capacitors and resistors (see schematic)
+-   A few capacitors and resistors (see schematic below)
 
 -   [TS audio jack](https://en.wikipedia.org/wiki/Phone_connector_(audio))
 
@@ -35,7 +35,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 **Schematic**
 
-The Tiva dev board has a 5v output.  A couple of resistors of the same value can be used to create a voltage divider to get the 2.5v input for REF of the MAX541.  I then use a MAX492 amplifier to amplify the analog output to typical line level.  Basic computer speakers can be plugged into the TS audio jack to hear the audio signal the DAC and amplifier outputs.
+The Tiva dev board has a 5v output.  A couple of resistors of the same value can be used to create a voltage divider to get the 2.5v input for REF of the MAX541.  I then use a MAX492 op amp to amplify the analog output to a typical line level.  Basic computer speakers can be plugged into the TS audio jack to hear the audio signal the DAC and amplifier output.
 
 ![Tiva TM4C1294 MAX541 MAX492 Schematic](Documentation/Schematic.png)
 
