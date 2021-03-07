@@ -33,7 +33,7 @@ This Texas Instruments Code Composer Studio project shows how to use [SPI](https
 
 **Schematic**
 
-![Tiva TM4C1294 MAX541 MAX492 Schematic](Documentation/Schematic.png)
+![Tiva TM4C1294 MAX5136 Schematic](Documentation/Schematic.png)
 
  
 
