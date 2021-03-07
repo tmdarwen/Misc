@@ -4,6 +4,7 @@ Miscellaneous Repo
 This is a repo for my smaller projects that don't really belong in any of my other repos.
 
 **Index**
+-   [**TivaMAX5136**](TivaMAX5136/README.md): Shows how to use [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) communication on the [Texas Instruments "Tiva" EK-TM4C1294XL evaluation board](https://www.ti.com/tool/EK-TM4C1294XL) with a 16 bit *stereo* audio [DAC](https://en.wikipedia.org/wiki/Digital-to-analog_converter).
 -   [**TivaMAX541**](TivaMAX541/README.md): Shows how to use [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) communication on the [Texas Instruments "Tiva" EK-TM4C1294XL evaluation board](https://www.ti.com/tool/EK-TM4C1294XL) with a 16 bit audio [DAC](https://en.wikipedia.org/wiki/Digital-to-analog_converter).
 -   [**TivaSPI**](TivaSPI/README.md): Shows how to use [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) communication on the [Texas Instruments "Tiva" EK-TM4C1294XL evaluation board](https://www.ti.com/tool/EK-TM4C1294XL) with an IO Expander.
  
@@ -12,7 +13,7 @@ This is a repo for my smaller projects that don't really belong in any of my oth
 
 The MIT License applies to this software and its supporting documentation:
 
-*Copyright (c) 2020 - Terence M. Darwen - tmdarwen.com*
+*Copyright (c) 2020-2021 - Terence M. Darwen - tmdarwen.com*
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
