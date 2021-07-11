@@ -18,9 +18,9 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
-| Schematic Part | Manufacturer    | Part              | 
-| ---------------| --------------- |-------------------|
-| C1             | AVX Corporation | 08055C104K4T4A    | 
+| Schematic Part | Manufacturer    | Part              | Description                              | 
+| ---------------| --------------- |-------------------|------------------------------------------|
+| C1             | AVX Corporation | 08055C104K4T4A    | 1uF X7R Surface Mount Capacitor          |
 
 <!--
 | Schematic Part | Manufacturer    | Part              | Description                              |
