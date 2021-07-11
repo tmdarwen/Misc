@@ -5,12 +5,12 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 
 ![CS4334 Audio DAC Breakout Board Assembled](Pics/CS4334Rev2.png)
 
- 
+
 **Schematic**
 
 ![CS4334 Audio DAC Breakout Board Schematic](Pics/CS4334Rev2Schematic.png)
 
- 
+
 **Bill of Materials**
 
 | Schematic Part | Manufacturer    | Part              | Description                              | 
@@ -30,7 +30,6 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 | U1             | Cirrus Logic    | CS4334-DSZ        | 16 Bit Stereo Audio DAC                  |
 
 
- 
 **Additional Pics**
 
 The manufactured board unassembled:
@@ -42,7 +41,7 @@ The PCB layout I made in KiCad without the front copper:
 The PCB layout with the front copper:
 ![CS4334 Audio DAC Breakout Board Unassembled](Pics/CS4334Rev2PCBLayoutWithFrontCopper.png)
 
- 
+
 **Licensing**
 
 The MIT License applies to this software and its supporting documentation:
