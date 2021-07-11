@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/Footprints/SJ-3523-SMT-TR.lib)(options "")(descr ""))
+  (lib (name tmd-symbol)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/tmd-kicad-library/tmd-symbol.lib)(options "")(descr ""))
+)
