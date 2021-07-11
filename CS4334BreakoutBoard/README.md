@@ -1,7 +1,7 @@
 CS4334 Audio DAC Breakout Board
 ===============================
 
-A repo for the KiCad files for my CS4334 Audio DAC breakout board.  More info about this project can be found on my website [here](https://tmdarwen.com/latest/creating-an-audio-dac-breakout-board).  After manufacturing and assembling this breakout board I was able to send it audio (I2S) using an STM32F411 development board running software I wrote that can be found [here](https://github.com/tmdarwen/STM32/tree/master/STM32F411/OnboardAudioOutput).
+A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs4334-35-38-39/) Audio DAC breakout board.  More info about this project can be found on my website [here](https://tmdarwen.com/latest/creating-an-audio-dac-breakout-board).  After manufacturing and assembling this breakout board I was able to send it audio (I2S) using an STM32F411 development board running software I wrote that can be found [here](https://github.com/tmdarwen/STM32/tree/master/STM32F411/OnboardAudioOutput).
 
 ![CS4334 Audio DAC Breakout Board Assembled](Pics/CS4334Rev2.png)
 
@@ -12,6 +12,7 @@ A repo for the KiCad files for my CS4334 Audio DAC breakout board.  More info ab
 
  
 **Bill of Materials**
+
 | Schematic Part| Manufacturer   | Part              | Description                             |
 | --------------| ---------------|-------------------------------------------------------------|
 | C1            | AVX Corporation| 08055C104K4T4A    | 0.1uF X7R Surface Mount Capacitor       |
@@ -27,6 +28,7 @@ A repo for the KiCad files for my CS4334 Audio DAC breakout board.  More info ab
 | R4,R5         | Yageo          | AC0805FR-0710KL   | 10K Surface Mount Resistor              |
 | R6,R7         | Yageo          | AC0805JR-07560RL  | 560 Surface Mount Resistor              |
 | U1            | Cirrus Logic   | CS4334-DSZ        | 16 Bit Stereo Audio DAC                 |
+
 
  
 **Additional Pics**
