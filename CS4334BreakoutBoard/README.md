@@ -21,6 +21,7 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 | Schematic Part | Manufacturer    | Part              | Description                              | 
 | ---------------| --------------- |-------------------|------------------------------------------|
 | C1             | AVX Corporation | 08055C104K4T4A    | 1uF X7R Surface Mount Capacitor          |
+| C2,C3          | Panasonic       | EEE-HA1H3R3R      | 3.3uF Surface Mount Capacitor            |
 
 <!--
 | Schematic Part | Manufacturer    | Part              | Description                              |
@@ -44,6 +45,7 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 
  
 **Additional Pics**
+
 The manufactured board unassembled:
 ![CS4334 Audio DAC Breakout Board Unassembled](Pics/CS4334Rev2PCBOnly.png)
 
