@@ -18,12 +18,16 @@ A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs433
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
+| Schematic Part | Manufacturer    | Part              | 
+| ---------------| --------------- |-------------------|
+| C1             | AVX Corporation | 08055C104K4T4A    | 
+
+<!--
 | Schematic Part | Manufacturer    | Part              | Description                              |
 | ---------------| --------------- |--------------------------------------------------------------|
 | C1             | AVX Corporation | 08055C104K4T4A    | 0.1uF X7R Surface Mount Capacitor        |
 | C2,C3          | Panasonic       | EEE-HA1H3R3R      | 3.3uF Surface Mount Capacitor            |
 
-<!--
 | C4,            | Panasonic       | EEE-HD1C100AR     | 10uF Surface Mount Capacitor             |
 | C5,C6,C7,C8    | Panasonic       | CC0805KRX7R0BB152 | 1500pF Surface Mount Capacitor           |
 | D1             | Yageo           | LG R971-KN-1      | Surface Mount Green LED                  |
