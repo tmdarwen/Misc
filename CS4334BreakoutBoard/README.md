@@ -46,7 +46,7 @@ The PCB layout with the front copper:
 
 The MIT License applies to this software and its supporting documentation:
 
-*Copyright (c) 2021 Terence M. Darwen - *
+*Copyright (c) 2021 Terence M. Darwen - tmdarwen.com*
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
