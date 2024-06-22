@@ -1,7 +1,7 @@
 CS4334 Audio DAC Breakout Board
 ===============================
 
-A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs4334-35-38-39/) Audio DAC breakout board.  More info about this project can be found on my website [here](https://tmdarwen.com/latest/creating-an-audio-dac-breakout-board).  After manufacturing and assembling this breakout board I was able to send it audio (I2S) using an STM32F411 development board running software I wrote that can be found [here](https://github.com/tmdarwen/STM32/tree/master/STM32F411/OnboardAudioOutput).
+A repo for the KiCad files for my [CS4334](https://www.cirrus.com/products/cs4334-35-38-39/) Audio DAC breakout board.  More info about this project can be found on my website [here](https://tmdarwen.com/creating-a-circuit-board-from-scratch.html).  After manufacturing and assembling this breakout board I was able to send it audio (I2S) using an STM32F411 development board running software I wrote that can be found [here](https://github.com/tmdarwen/STM32/tree/master/STM32F411/OnboardAudioOutput).
 
 ![CS4334 Audio DAC Breakout Board Assembled](Pics/CS4334Rev2.png)
 
@@ -46,7 +46,7 @@ The PCB layout with the front copper:
 
 The MIT License applies to this software and its supporting documentation:
 
-*Copyright (c) 2021 Terence M. Darwen - tmdarwen.com*
+*Copyright (c) 2021 Terence M. Darwen - *
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
